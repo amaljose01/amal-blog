@@ -4,8 +4,8 @@ title: Amal's Blog
 email: amaljom@gmail.com
 description: >-
   A personal blog built with Jekyll and the Minima theme.
-baseurl: ""
-url: "https://yourdomain.com"
+baseurl: "/amal-blog"
+url: "https://amaljose01.github.io"
 
 # Build settings
 theme: minima
