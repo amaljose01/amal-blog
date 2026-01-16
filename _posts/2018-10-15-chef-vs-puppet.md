@@ -4,7 +4,11 @@ title: "Chef vs Puppet: Configuration Management Comparison"
 date: 2018-10-28 10:00:00 +0000
 categories: [chef, puppet, configuration-management, devops]
 author: Amal
+image: /assets/images/posts/2018-10-15-chef-vs-puppet.svg
 ---
+![Post Image](/assets/images/posts/2018-10-15-chef-vs-puppet.jpg)
+
+
 
 # Chef vs Puppet: Configuration Management Comparison
 

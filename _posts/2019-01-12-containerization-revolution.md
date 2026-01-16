@@ -4,7 +4,11 @@ title: "Containerization Revolution: Docker and Microservices in 2019"
 date: 2019-01-12 10:00:00 +0530
 categories: [DevOps, Docker, Microservices]
 author: Amal Jose
+image: /assets/images/posts/2019-01-12-containerization-revolution.svg
 ---
+![Post Image](/assets/images/posts/2019-01-12-containerization-revolution.jpg)
+
+
 
 ## The Containerization Wave
 

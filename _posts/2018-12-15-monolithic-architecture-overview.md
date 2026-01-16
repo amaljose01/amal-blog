@@ -4,7 +4,11 @@ title: "Monolithic Application Architecture: Overview and Concepts"
 date: 2018-12-18 10:00:00 +0000
 categories: [architecture, monolithic, application-design, software-engineering]
 author: Amal
+image: /assets/images/posts/2018-12-15-monolithic-architecture-overview.svg
 ---
+![Post Image](/assets/images/posts/2018-12-15-monolithic-architecture-overview.jpg)
+
+
 
 # Monolithic Application Architecture: Overview and Concepts
 

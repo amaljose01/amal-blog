@@ -4,7 +4,11 @@ title: "Kubernetes Operators: Automating Complex Workloads"
 date: 2022-08-19 10:00:00 +0530
 categories: [Kubernetes, Operators, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2022-08-19-kubernetes-operators-automating-complex-workloads.svg
 ---
+![Post Image](/assets/images/posts/2022-08-19-kubernetes-operators-automating-complex-workloads.jpg)
+
+
 
 ## Overview
 

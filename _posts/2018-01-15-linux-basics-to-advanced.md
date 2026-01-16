@@ -4,7 +4,11 @@ title: "Linux Basics to Advanced: Complete Tutorial"
 date: 2018-01-08 10:00:00 +0000
 categories: [linux, operating-system, tutorial, devops]
 author: Amal
+image: /assets/images/posts/2018-01-15-linux-basics-to-advanced.svg
 ---
+![Post Image](/assets/images/posts/2018-01-15-linux-basics-to-advanced.jpg)
+
+
 
 # Linux Basics to Advanced: A Complete Tutorial
 

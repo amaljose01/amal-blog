@@ -4,7 +4,11 @@ title: "Serverless Architecture: Building Event-Driven Applications"
 date: 2020-02-08 10:00:00 +0530
 categories: [Serverless, AWS, Architecture]
 author: Amal Jose
+image: /assets/images/posts/2020-02-08-serverless-architecture-building-event-driven-applications.svg
 ---
+![Post Image](/assets/images/posts/2020-02-08-serverless-architecture-building-event-driven-applications.jpg)
+
+
 
 ## Overview
 

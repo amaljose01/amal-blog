@@ -4,7 +4,11 @@ title: "eBPF for Infrastructure Monitoring and Security"
 date: 2023-09-14 10:00:00 +0530
 categories: [eBPF, Monitoring, Security]
 author: Amal Jose
+image: /assets/images/posts/2023-09-14-ebpf-for-infrastructure-monitoring-and-security.svg
 ---
+![Post Image](/assets/images/posts/2023-09-14-ebpf-for-infrastructure-monitoring-and-security.jpg)
+
+
 
 ## Overview
 

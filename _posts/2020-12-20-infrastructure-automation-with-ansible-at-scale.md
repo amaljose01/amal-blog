@@ -4,7 +4,11 @@ title: "Infrastructure Automation with Ansible at Scale"
 date: 2020-12-20 10:00:00 +0530
 categories: [Ansible, Automation, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2020-12-20-infrastructure-automation-with-ansible-at-scale.svg
 ---
+![Post Image](/assets/images/posts/2020-12-20-infrastructure-automation-with-ansible-at-scale.jpg)
+
+
 
 ## Overview
 

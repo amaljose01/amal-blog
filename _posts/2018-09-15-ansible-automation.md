@@ -4,7 +4,11 @@ title: "Ansible: Infrastructure Automation Made Easy"
 date: 2018-09-05 10:00:00 +0000
 categories: [ansible, automation, devops, infrastructure]
 author: Amal
+image: /assets/images/posts/2018-09-15-ansible-automation.svg
 ---
+![Post Image](/assets/images/posts/2018-09-15-ansible-automation.jpg)
+
+
 
 # Ansible: Infrastructure Automation Made Easy
 

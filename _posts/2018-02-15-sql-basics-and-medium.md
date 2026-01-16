@@ -4,7 +4,11 @@ title: "SQL Basics and Medium Level: Complete Guide"
 date: 2018-02-22 10:00:00 +0000
 categories: [sql, database, tutorial, backend]
 author: Amal
+image: /assets/images/posts/2018-02-15-sql-basics-and-medium.svg
 ---
+![Post Image](/assets/images/posts/2018-02-15-sql-basics-and-medium.jpg)
+
+
 
 # SQL Basics and Medium Level: Complete Guide
 

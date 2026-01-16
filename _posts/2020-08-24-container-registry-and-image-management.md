@@ -4,7 +4,11 @@ title: "Container Registry and Image Management"
 date: 2020-08-24 10:00:00 +0530
 categories: [Docker, Registry, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2020-08-24-container-registry-and-image-management.svg
 ---
+![Post Image](/assets/images/posts/2020-08-24-container-registry-and-image-management.jpg)
+
+
 
 ## Overview
 

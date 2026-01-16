@@ -4,7 +4,11 @@ title: "Kubernetes Security: RBAC, Network Policies, and Pod Security"
 date: 2021-05-22 10:00:00 +0530
 categories: [Kubernetes, Security, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2021-05-22-kubernetes-security-rbac-network-policies-and-pod-security.svg
 ---
+![Post Image](/assets/images/posts/2021-05-22-kubernetes-security-rbac-network-policies-and-pod-security.jpg)
+
+
 
 ## Overview
 

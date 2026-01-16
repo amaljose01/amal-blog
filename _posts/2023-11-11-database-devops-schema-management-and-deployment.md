@@ -4,7 +4,11 @@ title: "Database DevOps: Schema Management and Deployment"
 date: 2023-11-11 10:00:00 +0530
 categories: [Database, DevOps, IaC]
 author: Amal Jose
+image: /assets/images/posts/2023-11-11-database-devops-schema-management-and-deployment.svg
 ---
+![Post Image](/assets/images/posts/2023-11-11-database-devops-schema-management-and-deployment.jpg)
+
+
 
 ## Overview
 

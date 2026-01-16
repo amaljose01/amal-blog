@@ -4,7 +4,11 @@ title: "Container Security and Runtime Protection"
 date: 2023-03-18 10:00:00 +0530
 categories: [Container-Security, Security, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2023-03-18-container-security-and-runtime-protection.svg
 ---
+![Post Image](/assets/images/posts/2023-03-18-container-security-and-runtime-protection.jpg)
+
+
 
 ## Overview
 

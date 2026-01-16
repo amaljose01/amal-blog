@@ -4,7 +4,11 @@ title: "Quantum Computing Impact on DevOps and Security"
 date: 2025-01-30 10:00:00 +0530
 categories: [Quantum, Security, Future]
 author: Amal Jose
+image: /assets/images/posts/2025-01-30-quantum-computing-impact-on-devops-and-security.svg
 ---
+![Post Image](/assets/images/posts/2025-01-30-quantum-computing-impact-on-devops-and-security.jpg)
+
+
 
 ## Overview
 

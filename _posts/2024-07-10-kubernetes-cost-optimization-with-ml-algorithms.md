@@ -4,7 +4,11 @@ title: "Kubernetes Cost Optimization with ML Algorithms"
 date: 2024-07-10 10:00:00 +0530
 categories: [Kubernetes, AI, Cost-Optimization]
 author: Amal Jose
+image: /assets/images/posts/2024-07-10-kubernetes-cost-optimization-with-ml-algorithms.svg
 ---
+![Post Image](/assets/images/posts/2024-07-10-kubernetes-cost-optimization-with-ml-algorithms.jpg)
+
+
 
 ## Overview
 

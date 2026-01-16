@@ -4,7 +4,11 @@ title: "Networking Concepts: A Comprehensive Guide"
 date: 2018-05-03 10:00:00 +0000
 categories: [networking, tcp-ip, internet, devops]
 author: Amal
+image: /assets/images/posts/2018-05-15-networking-concepts.svg
 ---
+![Post Image](/assets/images/posts/2018-05-15-networking-concepts.jpg)
+
+
 
 # Networking Concepts: A Comprehensive Guide
 

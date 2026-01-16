@@ -4,7 +4,11 @@ title: "MLOps: DevOps for Machine Learning"
 date: 2023-01-25 10:00:00 +0530
 categories: [MLOps, AI, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2023-01-25-mlops-devops-for-machine-learning.svg
 ---
+![Post Image](/assets/images/posts/2023-01-25-mlops-devops-for-machine-learning.jpg)
+
+
 
 ## Overview
 

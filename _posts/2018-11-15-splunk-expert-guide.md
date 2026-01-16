@@ -4,7 +4,11 @@ title: "Become Expert in Splunk: Log Analysis and Monitoring"
 date: 2018-11-09 10:00:00 +0000
 categories: [splunk, monitoring, logging, analytics, devops]
 author: Amal
+image: /assets/images/posts/2018-11-15-splunk-expert-guide.svg
 ---
+![Post Image](/assets/images/posts/2018-11-15-splunk-expert-guide.jpg)
+
+
 
 # Become Expert in Splunk: Log Analysis and Monitoring
 

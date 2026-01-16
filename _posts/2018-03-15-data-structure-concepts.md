@@ -4,7 +4,11 @@ title: "Data Structure Concepts: The Foundation of Computer Science"
 date: 2018-03-10 10:00:00 +0000
 categories: [data-structures, algorithms, computer-science, programming]
 author: Amal
+image: /assets/images/posts/2018-03-15-data-structure-concepts.svg
 ---
+![Post Image](/assets/images/posts/2018-03-15-data-structure-concepts.jpg)
+
+
 
 # Data Structure Concepts: The Foundation of Computer Science
 

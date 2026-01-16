@@ -4,7 +4,11 @@ title: "Infrastructure as Code Testing and Validation"
 date: 2022-10-10 10:00:00 +0530
 categories: [IaC, Testing, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2022-10-10-infrastructure-as-code-testing-and-validation.svg
 ---
+![Post Image](/assets/images/posts/2022-10-10-infrastructure-as-code-testing-and-validation.jpg)
+
+
 
 ## Overview
 

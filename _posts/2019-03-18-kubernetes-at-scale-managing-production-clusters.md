@@ -4,7 +4,11 @@ title: "Kubernetes at Scale: Managing Production Clusters"
 date: 2019-03-18 10:00:00 +0530
 categories: [Kubernetes, DevOps, Infrastructure]
 author: Amal Jose
+image: /assets/images/posts/2019-03-18-kubernetes-at-scale-managing-production-clusters.svg
 ---
+![Post Image](/assets/images/posts/2019-03-18-kubernetes-at-scale-managing-production-clusters.jpg)
+
+
 
 ## Overview
 

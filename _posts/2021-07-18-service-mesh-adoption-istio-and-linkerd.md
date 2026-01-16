@@ -4,7 +4,11 @@ title: "Service Mesh Adoption: Istio and Linkerd"
 date: 2021-07-18 10:00:00 +0530
 categories: [Service-Mesh, Kubernetes, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2021-07-18-service-mesh-adoption-istio-and-linkerd.svg
 ---
+![Post Image](/assets/images/posts/2021-07-18-service-mesh-adoption-istio-and-linkerd.jpg)
+
+
 
 ## Overview
 

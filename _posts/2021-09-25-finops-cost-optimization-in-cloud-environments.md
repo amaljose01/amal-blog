@@ -4,7 +4,11 @@ title: "FinOps: Cost Optimization in Cloud Environments"
 date: 2021-09-25 10:00:00 +0530
 categories: [FinOps, Cost-Optimization, Cloud]
 author: Amal Jose
+image: /assets/images/posts/2021-09-25-finops-cost-optimization-in-cloud-environments.svg
 ---
+![Post Image](/assets/images/posts/2021-09-25-finops-cost-optimization-in-cloud-environments.jpg)
+
+
 
 ## Overview
 

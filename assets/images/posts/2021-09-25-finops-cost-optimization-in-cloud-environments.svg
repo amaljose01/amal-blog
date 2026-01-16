@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0095FF"/>
+  <text x="400" y="250" font-size="48" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" fill="white">
+    09 25 Finops Cost Optimization In C
+  </text>
+  <text x="400" y="350" font-size="24" font-family="Arial, sans-serif" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+    DevOps Journey
+  </text>
+  <text x="400" y="550" font-size="18" font-family="Arial, sans-serif" text-anchor="middle" fill="rgba(255,255,255,0.6)">
+    By Amal Jose
+  </text>
+</svg>

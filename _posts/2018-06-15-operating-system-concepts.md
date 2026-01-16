@@ -4,7 +4,11 @@ title: "Operating System Concepts: The Core of Computing"
 date: 2018-06-27 10:00:00 +0000
 categories: [operating-systems, systems, computer-science, tutorial]
 author: Amal
+image: /assets/images/posts/2018-06-15-operating-system-concepts.svg
 ---
+![Post Image](/assets/images/posts/2018-06-15-operating-system-concepts.jpg)
+
+
 
 # Operating System Concepts: The Core of Computing
 

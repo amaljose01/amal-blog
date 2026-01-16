@@ -4,7 +4,11 @@ title: "Disaster Recovery and Business Continuity Planning"
 date: 2020-10-11 10:00:00 +0530
 categories: [DR, Infrastructure, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2020-10-11-disaster-recovery-and-business-continuity-planning.svg
 ---
+![Post Image](/assets/images/posts/2020-10-11-disaster-recovery-and-business-continuity-planning.jpg)
+
+
 
 ## Overview
 

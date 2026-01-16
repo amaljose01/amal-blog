@@ -4,7 +4,11 @@ title: "GitOps at Enterprise Scale: Implementing Continuous Deployment"
 date: 2022-06-14 10:00:00 +0530
 categories: [GitOps, DevOps, CI-CD]
 author: Amal Jose
+image: /assets/images/posts/2022-06-14-gitops-at-enterprise-scale-implementing-continuous-deployment.svg
 ---
+![Post Image](/assets/images/posts/2022-06-14-gitops-at-enterprise-scale-implementing-continuous-deployment.jpg)
+
+
 
 ## Overview
 

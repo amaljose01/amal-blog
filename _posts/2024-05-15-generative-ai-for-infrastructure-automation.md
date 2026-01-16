@@ -4,7 +4,11 @@ title: "Generative AI for Infrastructure Automation"
 date: 2024-05-15 10:00:00 +0530
 categories: [GenAI, Automation, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2024-05-15-generative-ai-for-infrastructure-automation.svg
 ---
+![Post Image](/assets/images/posts/2024-05-15-generative-ai-for-infrastructure-automation.jpg)
+
+
 
 ## Overview
 

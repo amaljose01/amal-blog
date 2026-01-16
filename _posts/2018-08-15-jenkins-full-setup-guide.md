@@ -4,7 +4,11 @@ title: "Jenkins Full Setup Guide: CI/CD Pipeline Complete"
 date: 2018-08-21 10:00:00 +0000
 categories: [jenkins, ci-cd, devops, automation]
 author: Amal
+image: /assets/images/posts/2018-08-15-jenkins-full-setup-guide.svg
 ---
+![Post Image](/assets/images/posts/2018-08-15-jenkins-full-setup-guide.jpg)
+
+
 
 # Jenkins Full Setup Guide: CI/CD Pipeline Complete
 

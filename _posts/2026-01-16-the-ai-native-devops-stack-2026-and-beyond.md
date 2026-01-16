@@ -4,7 +4,11 @@ title: "The AI-Native DevOps Stack: 2026 and Beyond"
 date: 2026-01-15 10:00:00 +0530
 categories: [AI, DevOps, 2026]
 author: Amal Jose
+image: /assets/images/posts/2026-01-16-the-ai-native-devops-stack-2026-and-beyond.svg
 ---
+![Post Image](/assets/images/posts/2026-01-16-the-ai-native-devops-stack-2026-and-beyond.jpg)
+
+
 
 ## Overview
 

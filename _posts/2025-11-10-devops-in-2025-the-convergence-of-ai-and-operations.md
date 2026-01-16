@@ -4,7 +4,11 @@ title: "DevOps in 2025: The Convergence of AI and Operations"
 date: 2025-11-10 10:00:00 +0530
 categories: [DevOps, AI, Future]
 author: Amal Jose
+image: /assets/images/posts/2025-11-10-devops-in-2025-the-convergence-of-ai-and-operations.svg
 ---
+![Post Image](/assets/images/posts/2025-11-10-devops-in-2025-the-convergence-of-ai-and-operations.jpg)
+
+
 
 ## Overview
 

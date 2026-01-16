@@ -4,7 +4,11 @@ title: "CI/CD Pipeline Evolution with Jenkins 2.0"
 date: 2019-05-22 10:00:00 +0530
 categories: [Jenkins, CI-CD, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2019-05-22-cicd-pipeline-evolution-with-jenkins-20.svg
 ---
+![Post Image](/assets/images/posts/2019-05-22-cicd-pipeline-evolution-with-jenkins-20.jpg)
+
+
 
 ## Overview
 

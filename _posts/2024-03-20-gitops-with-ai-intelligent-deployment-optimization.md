@@ -4,7 +4,11 @@ title: "GitOps with AI: Intelligent Deployment Optimization"
 date: 2024-03-20 10:00:00 +0530
 categories: [GitOps, AI, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2024-03-20-gitops-with-ai-intelligent-deployment-optimization.svg
 ---
+![Post Image](/assets/images/posts/2024-03-20-gitops-with-ai-intelligent-deployment-optimization.jpg)
+
+
 
 ## Overview
 

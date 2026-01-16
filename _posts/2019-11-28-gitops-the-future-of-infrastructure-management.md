@@ -4,7 +4,11 @@ title: "GitOps: The Future of Infrastructure Management"
 date: 2019-11-28 10:00:00 +0530
 categories: [GitOps, DevOps, Kubernetes]
 author: Amal Jose
+image: /assets/images/posts/2019-11-28-gitops-the-future-of-infrastructure-management.svg
 ---
+![Post Image](/assets/images/posts/2019-11-28-gitops-the-future-of-infrastructure-management.jpg)
+
+
 
 ## Overview
 

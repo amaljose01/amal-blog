@@ -4,7 +4,11 @@ title: "Security in DevOps: Implementing DevSecOps"
 date: 2020-06-19 10:00:00 +0530
 categories: [DevSecOps, Security, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2020-06-19-security-in-devops-implementing-devsecops.svg
 ---
+![Post Image](/assets/images/posts/2020-06-19-security-in-devops-implementing-devsecops.jpg)
+
+
 
 ## Overview
 

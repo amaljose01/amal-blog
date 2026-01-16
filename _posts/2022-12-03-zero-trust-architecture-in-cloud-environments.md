@@ -4,7 +4,11 @@ title: "Zero Trust Architecture in Cloud Environments"
 date: 2022-12-03 10:00:00 +0530
 categories: [Security, Zero-Trust, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2022-12-03-zero-trust-architecture-in-cloud-environments.svg
 ---
+![Post Image](/assets/images/posts/2022-12-03-zero-trust-architecture-in-cloud-environments.jpg)
+
+
 
 ## Overview
 

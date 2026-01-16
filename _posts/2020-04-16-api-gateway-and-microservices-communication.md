@@ -4,7 +4,11 @@ title: "API Gateway and Microservices Communication"
 date: 2020-04-16 10:00:00 +0530
 categories: [API-Gateway, Microservices, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2020-04-16-api-gateway-and-microservices-communication.svg
 ---
+![Post Image](/assets/images/posts/2020-04-16-api-gateway-and-microservices-communication.jpg)
+
+
 
 ## Overview
 

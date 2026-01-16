@@ -4,7 +4,11 @@ title: "AI for Security: Detecting Anomalies and Threats"
 date: 2024-09-18 10:00:00 +0530
 categories: [Security, AI, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2024-09-18-ai-for-security-detecting-anomalies-and-threats.svg
 ---
+![Post Image](/assets/images/posts/2024-09-18-ai-for-security-detecting-anomalies-and-threats.jpg)
+
+
 
 ## Overview
 

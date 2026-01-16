@@ -4,7 +4,11 @@ title: "Infrastructure Observability: Beyond Metrics"
 date: 2022-04-20 10:00:00 +0530
 categories: [Observability, Monitoring, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2022-04-20-infrastructure-observability-beyond-metrics.svg
 ---
+![Post Image](/assets/images/posts/2022-04-20-infrastructure-observability-beyond-metrics.jpg)
+
+
 
 ## Overview
 

@@ -4,7 +4,11 @@ title: "Edge Computing and IoT DevOps"
 date: 2021-01-30 10:00:00 +0530
 categories: [Edge-Computing, IoT, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2021-01-30-edge-computing-and-iot-devops.svg
 ---
+![Post Image](/assets/images/posts/2021-01-30-edge-computing-and-iot-devops.jpg)
+
+
 
 ## Overview
 

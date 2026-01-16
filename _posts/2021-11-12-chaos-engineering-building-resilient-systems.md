@@ -4,7 +4,11 @@ title: "Chaos Engineering: Building Resilient Systems"
 date: 2021-11-12 10:00:00 +0530
 categories: [Chaos-Engineering, Resilience, DevOps]
 author: Amal Jose
+image: /assets/images/posts/2021-11-12-chaos-engineering-building-resilient-systems.svg
 ---
+![Post Image](/assets/images/posts/2021-11-12-chaos-engineering-building-resilient-systems.jpg)
+
+
 
 ## Overview
 

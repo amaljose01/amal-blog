@@ -4,7 +4,11 @@ title: "Autonomous Networks: Self-Managing Infrastructure"
 date: 2025-09-19 10:00:00 +0530
 categories: [Autonomous-Networks, AI, Infrastructure]
 author: Amal Jose
+image: /assets/images/posts/2025-09-19-autonomous-networks-self-managing-infrastructure.svg
 ---
+![Post Image](/assets/images/posts/2025-09-19-autonomous-networks-self-managing-infrastructure.jpg)
+
+
 
 ## Overview
 
