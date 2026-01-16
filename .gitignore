@@ -1,4 +1,5 @@
 # Jekyll and Minima Gem
+_site/
 .jekyll-cache/
 .sass-cache/
 *.gem
