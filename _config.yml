@@ -1,0 +1,34 @@
+# Jekyll configuration for amal-blog
+
+title: Amal's Blog
+email: amaljom@gmail.com
+description: >-
+  A personal blog built with Jekyll and the Minima theme.
+baseurl: ""
+url: "https://yourdomain.com"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme customization
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/amaljose01" }
+    - { platform: twitter, user_url: "https://twitter.com" }
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from the output
+exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - "*.erb"
