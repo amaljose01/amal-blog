@@ -6,7 +6,6 @@ categories: [Kubernetes, Scaling, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2023-05-30-scaling-kubernetes-managing-multi-cluster-environments.svg
 ---
-![Post Image](/assets/images/posts/2023-05-30-scaling-kubernetes-managing-multi-cluster-environments.jpg)
 
 
 

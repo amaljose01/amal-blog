@@ -6,7 +6,6 @@ categories: [Terraform, IaC, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2019-07-10-infrastructure-as-code-terraform-best-practices.svg
 ---
-![Post Image](/assets/images/posts/2019-07-10-infrastructure-as-code-terraform-best-practices.jpg)
 
 
 

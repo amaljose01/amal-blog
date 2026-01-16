@@ -6,7 +6,6 @@ categories: [Monitoring, Observability, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2019-09-14-monitoring-and-observability-in-distributed-systems.svg
 ---
-![Post Image](/assets/images/posts/2019-09-14-monitoring-and-observability-in-distributed-systems.jpg)
 
 
 

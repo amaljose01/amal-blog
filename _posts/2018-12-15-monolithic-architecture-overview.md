@@ -6,7 +6,6 @@ categories: [architecture, monolithic, application-design, software-engineering]
 author: Amal
 image: /assets/images/posts/2018-12-15-monolithic-architecture-overview.svg
 ---
-![Post Image](/assets/images/posts/2018-12-15-monolithic-architecture-overview.jpg)
 
 
 

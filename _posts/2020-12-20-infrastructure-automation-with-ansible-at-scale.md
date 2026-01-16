@@ -6,7 +6,6 @@ categories: [Ansible, Automation, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2020-12-20-infrastructure-automation-with-ansible-at-scale.svg
 ---
-![Post Image](/assets/images/posts/2020-12-20-infrastructure-automation-with-ansible-at-scale.jpg)
 
 
 

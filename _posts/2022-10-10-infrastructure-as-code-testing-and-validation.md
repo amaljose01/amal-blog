@@ -6,7 +6,6 @@ categories: [IaC, Testing, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2022-10-10-infrastructure-as-code-testing-and-validation.svg
 ---
-![Post Image](/assets/images/posts/2022-10-10-infrastructure-as-code-testing-and-validation.jpg)
 
 
 

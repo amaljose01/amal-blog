@@ -6,7 +6,6 @@ categories: [Kubernetes, Security, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2021-05-22-kubernetes-security-rbac-network-policies-and-pod-security.svg
 ---
-![Post Image](/assets/images/posts/2021-05-22-kubernetes-security-rbac-network-policies-and-pod-security.jpg)
 
 
 

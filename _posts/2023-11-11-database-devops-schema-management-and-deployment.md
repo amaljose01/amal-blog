@@ -6,7 +6,6 @@ categories: [Database, DevOps, IaC]
 author: Amal Jose
 image: /assets/images/posts/2023-11-11-database-devops-schema-management-and-deployment.svg
 ---
-![Post Image](/assets/images/posts/2023-11-11-database-devops-schema-management-and-deployment.jpg)
 
 
 

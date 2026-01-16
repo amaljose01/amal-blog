@@ -6,7 +6,6 @@ categories: [GenAI, Automation, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2024-05-15-generative-ai-for-infrastructure-automation.svg
 ---
-![Post Image](/assets/images/posts/2024-05-15-generative-ai-for-infrastructure-automation.jpg)
 
 
 

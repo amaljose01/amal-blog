@@ -6,7 +6,6 @@ categories: [operating-systems, systems, computer-science, tutorial]
 author: Amal
 image: /assets/images/posts/2018-06-15-operating-system-concepts.svg
 ---
-![Post Image](/assets/images/posts/2018-06-15-operating-system-concepts.jpg)
 
 
 

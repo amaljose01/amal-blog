@@ -6,7 +6,6 @@ categories: [Security, AI, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2024-09-18-ai-for-security-detecting-anomalies-and-threats.svg
 ---
-![Post Image](/assets/images/posts/2024-09-18-ai-for-security-detecting-anomalies-and-threats.jpg)
 
 
 

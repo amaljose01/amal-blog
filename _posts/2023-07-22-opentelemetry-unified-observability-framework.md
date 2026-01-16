@@ -6,7 +6,6 @@ categories: [Observability, OpenTelemetry, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2023-07-22-opentelemetry-unified-observability-framework.svg
 ---
-![Post Image](/assets/images/posts/2023-07-22-opentelemetry-unified-observability-framework.jpg)
 
 
 

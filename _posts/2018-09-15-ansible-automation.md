@@ -6,7 +6,6 @@ categories: [ansible, automation, devops, infrastructure]
 author: Amal
 image: /assets/images/posts/2018-09-15-ansible-automation.svg
 ---
-![Post Image](/assets/images/posts/2018-09-15-ansible-automation.jpg)
 
 
 

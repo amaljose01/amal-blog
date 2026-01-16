@@ -6,7 +6,6 @@ categories: [LLM, AI, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2025-03-25-advanced-llms-in-infrastructure-automation.svg
 ---
-![Post Image](/assets/images/posts/2025-03-25-advanced-llms-in-infrastructure-automation.jpg)
 
 
 

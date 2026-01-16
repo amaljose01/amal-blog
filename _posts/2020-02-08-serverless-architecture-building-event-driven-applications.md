@@ -6,7 +6,6 @@ categories: [Serverless, AWS, Architecture]
 author: Amal Jose
 image: /assets/images/posts/2020-02-08-serverless-architecture-building-event-driven-applications.svg
 ---
-![Post Image](/assets/images/posts/2020-02-08-serverless-architecture-building-event-driven-applications.jpg)
 
 
 

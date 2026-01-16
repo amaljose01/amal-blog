@@ -6,7 +6,6 @@ categories: [jenkins, ci-cd, devops, automation]
 author: Amal
 image: /assets/images/posts/2018-08-15-jenkins-full-setup-guide.svg
 ---
-![Post Image](/assets/images/posts/2018-08-15-jenkins-full-setup-guide.jpg)
 
 
 

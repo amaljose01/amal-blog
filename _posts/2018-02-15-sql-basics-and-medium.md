@@ -6,7 +6,6 @@ categories: [sql, database, tutorial, backend]
 author: Amal
 image: /assets/images/posts/2018-02-15-sql-basics-and-medium.svg
 ---
-![Post Image](/assets/images/posts/2018-02-15-sql-basics-and-medium.jpg)
 
 
 

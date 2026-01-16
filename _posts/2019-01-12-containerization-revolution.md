@@ -6,7 +6,6 @@ categories: [DevOps, Docker, Microservices]
 author: Amal Jose
 image: /assets/images/posts/2019-01-12-containerization-revolution.svg
 ---
-![Post Image](/assets/images/posts/2019-01-12-containerization-revolution.jpg)
 
 
 

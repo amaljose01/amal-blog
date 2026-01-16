@@ -6,7 +6,6 @@ categories: [Container-Security, Security, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2023-03-18-container-security-and-runtime-protection.svg
 ---
-![Post Image](/assets/images/posts/2023-03-18-container-security-and-runtime-protection.jpg)
 
 
 

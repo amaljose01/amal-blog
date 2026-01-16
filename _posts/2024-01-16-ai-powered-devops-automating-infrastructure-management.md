@@ -6,7 +6,6 @@ categories: [AI, DevOps, Automation]
 author: Amal Jose
 image: /assets/images/posts/2024-01-16-ai-powered-devops-automating-infrastructure-management.svg
 ---
-![Post Image](/assets/images/posts/2024-01-16-ai-powered-devops-automating-infrastructure-management.jpg)
 
 
 

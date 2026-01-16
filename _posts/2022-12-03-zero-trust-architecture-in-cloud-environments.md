@@ -6,7 +6,6 @@ categories: [Security, Zero-Trust, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2022-12-03-zero-trust-architecture-in-cloud-environments.svg
 ---
-![Post Image](/assets/images/posts/2022-12-03-zero-trust-architecture-in-cloud-environments.jpg)
 
 
 

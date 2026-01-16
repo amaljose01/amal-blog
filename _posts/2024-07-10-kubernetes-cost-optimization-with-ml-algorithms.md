@@ -6,7 +6,6 @@ categories: [Kubernetes, AI, Cost-Optimization]
 author: Amal Jose
 image: /assets/images/posts/2024-07-10-kubernetes-cost-optimization-with-ml-algorithms.svg
 ---
-![Post Image](/assets/images/posts/2024-07-10-kubernetes-cost-optimization-with-ml-algorithms.jpg)
 
 
 

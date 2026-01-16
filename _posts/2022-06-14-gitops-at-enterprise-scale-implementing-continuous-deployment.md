@@ -6,7 +6,6 @@ categories: [GitOps, DevOps, CI-CD]
 author: Amal Jose
 image: /assets/images/posts/2022-06-14-gitops-at-enterprise-scale-implementing-continuous-deployment.svg
 ---
-![Post Image](/assets/images/posts/2022-06-14-gitops-at-enterprise-scale-implementing-continuous-deployment.jpg)
 
 
 

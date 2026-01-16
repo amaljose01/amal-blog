@@ -6,7 +6,6 @@ categories: [Bash, Scripting, Shell, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2018-07-12-bash-scripting-fundamentals.svg
 ---
-![Post Image](/assets/images/posts/2018-07-12-bash-scripting-fundamentals.jpg)
 
 
 

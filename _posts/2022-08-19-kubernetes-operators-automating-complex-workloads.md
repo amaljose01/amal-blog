@@ -6,7 +6,6 @@ categories: [Kubernetes, Operators, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2022-08-19-kubernetes-operators-automating-complex-workloads.svg
 ---
-![Post Image](/assets/images/posts/2022-08-19-kubernetes-operators-automating-complex-workloads.jpg)
 
 
 

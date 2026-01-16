@@ -6,7 +6,6 @@ categories: [MLOps, AI, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2023-01-25-mlops-devops-for-machine-learning.svg
 ---
-![Post Image](/assets/images/posts/2023-01-25-mlops-devops-for-machine-learning.jpg)
 
 
 

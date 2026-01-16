@@ -6,7 +6,6 @@ categories: [Platform-Engineering, DevOps, DX]
 author: Amal Jose
 image: /assets/images/posts/2022-02-08-internal-developer-platforms-enabling-self-service.svg
 ---
-![Post Image](/assets/images/posts/2022-02-08-internal-developer-platforms-enabling-self-service.jpg)
 
 
 

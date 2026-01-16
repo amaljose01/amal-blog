@@ -6,7 +6,6 @@ categories: [networking, tcp-ip, internet, devops]
 author: Amal
 image: /assets/images/posts/2018-05-15-networking-concepts.svg
 ---
-![Post Image](/assets/images/posts/2018-05-15-networking-concepts.jpg)
 
 
 

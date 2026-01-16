@@ -6,7 +6,6 @@ categories: [chef, puppet, configuration-management, devops]
 author: Amal
 image: /assets/images/posts/2018-10-15-chef-vs-puppet.svg
 ---
-![Post Image](/assets/images/posts/2018-10-15-chef-vs-puppet.jpg)
 
 
 

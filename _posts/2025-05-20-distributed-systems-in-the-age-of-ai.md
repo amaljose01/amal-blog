@@ -6,7 +6,6 @@ categories: [Distributed-Systems, AI, Architecture]
 author: Amal Jose
 image: /assets/images/posts/2025-05-20-distributed-systems-in-the-age-of-ai.svg
 ---
-![Post Image](/assets/images/posts/2025-05-20-distributed-systems-in-the-age-of-ai.jpg)
 
 
 

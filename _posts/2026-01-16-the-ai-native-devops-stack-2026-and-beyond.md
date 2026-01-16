@@ -6,7 +6,6 @@ categories: [AI, DevOps, 2026]
 author: Amal Jose
 image: /assets/images/posts/2026-01-16-the-ai-native-devops-stack-2026-and-beyond.svg
 ---
-![Post Image](/assets/images/posts/2026-01-16-the-ai-native-devops-stack-2026-and-beyond.jpg)
 
 
 

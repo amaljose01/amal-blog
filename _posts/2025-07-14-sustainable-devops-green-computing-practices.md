@@ -6,7 +6,6 @@ categories: [Sustainability, Green-Computing, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2025-07-14-sustainable-devops-green-computing-practices.svg
 ---
-![Post Image](/assets/images/posts/2025-07-14-sustainable-devops-green-computing-practices.jpg)
 
 
 

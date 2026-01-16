@@ -6,7 +6,6 @@ categories: [python, scripting, programming, tutorial]
 author: Amal
 image: /assets/images/posts/2018-04-15-python-scripting-full.svg
 ---
-![Post Image](/assets/images/posts/2018-04-15-python-scripting-full.jpg)
 
 
 

@@ -6,7 +6,6 @@ categories: [DR, Infrastructure, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2020-10-11-disaster-recovery-and-business-continuity-planning.svg
 ---
-![Post Image](/assets/images/posts/2020-10-11-disaster-recovery-and-business-continuity-planning.jpg)
 
 
 

@@ -6,7 +6,6 @@ categories: [Autonomous-Infrastructure, AI, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2024-11-22-autonomous-infrastructure-self-healing-systems.svg
 ---
-![Post Image](/assets/images/posts/2024-11-22-autonomous-infrastructure-self-healing-systems.jpg)
 
 
 

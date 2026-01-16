@@ -6,7 +6,6 @@ categories: [splunk, monitoring, logging, analytics, devops]
 author: Amal
 image: /assets/images/posts/2018-11-15-splunk-expert-guide.svg
 ---
-![Post Image](/assets/images/posts/2018-11-15-splunk-expert-guide.jpg)
 
 
 

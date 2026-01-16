@@ -6,7 +6,6 @@ categories: [Autonomous-Networks, AI, Infrastructure]
 author: Amal Jose
 image: /assets/images/posts/2025-09-19-autonomous-networks-self-managing-infrastructure.svg
 ---
-![Post Image](/assets/images/posts/2025-09-19-autonomous-networks-self-managing-infrastructure.jpg)
 
 
 

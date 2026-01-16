@@ -6,7 +6,6 @@ categories: [Observability, Monitoring, DevOps]
 author: Amal Jose
 image: /assets/images/posts/2022-04-20-infrastructure-observability-beyond-metrics.svg
 ---
-![Post Image](/assets/images/posts/2022-04-20-infrastructure-observability-beyond-metrics.jpg)
 
 
 

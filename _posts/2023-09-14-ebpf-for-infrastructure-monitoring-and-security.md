@@ -6,7 +6,6 @@ categories: [eBPF, Monitoring, Security]
 author: Amal Jose
 image: /assets/images/posts/2023-09-14-ebpf-for-infrastructure-monitoring-and-security.svg
 ---
-![Post Image](/assets/images/posts/2023-09-14-ebpf-for-infrastructure-monitoring-and-security.jpg)
 
 
 

@@ -6,7 +6,6 @@ categories: [Kubernetes, DevOps, Infrastructure]
 author: Amal Jose
 image: /assets/images/posts/2019-03-18-kubernetes-at-scale-managing-production-clusters.svg
 ---
-![Post Image](/assets/images/posts/2019-03-18-kubernetes-at-scale-managing-production-clusters.jpg)
 
 
 

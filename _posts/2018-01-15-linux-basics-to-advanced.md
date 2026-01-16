@@ -6,7 +6,6 @@ categories: [linux, operating-system, tutorial, devops]
 author: Amal
 image: /assets/images/posts/2018-01-15-linux-basics-to-advanced.svg
 ---
-![Post Image](/assets/images/posts/2018-01-15-linux-basics-to-advanced.jpg)
 
 
 

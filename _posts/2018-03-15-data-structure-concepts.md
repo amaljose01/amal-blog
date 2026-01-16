@@ -6,7 +6,6 @@ categories: [data-structures, algorithms, computer-science, programming]
 author: Amal
 image: /assets/images/posts/2018-03-15-data-structure-concepts.svg
 ---
-![Post Image](/assets/images/posts/2018-03-15-data-structure-concepts.jpg)
 
 
 
