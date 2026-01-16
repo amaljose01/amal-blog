@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Become Expert in Splunk: Log Analysis and Monitoring | Amal’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Become Expert in Splunk: Log Analysis and Monitoring" />
+<meta name="author" content="Amal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Become Expert in Splunk: Log Analysis and Monitoring" />
+<meta property="og:description" content="Become Expert in Splunk: Log Analysis and Monitoring" />
+<link rel="canonical" href="http://localhost:4000/splunk/monitoring/logging/analytics/devops/2018/11/09/splunk-expert-guide.html" />
+<meta property="og:url" content="http://localhost:4000/splunk/monitoring/logging/analytics/devops/2018/11/09/splunk-expert-guide.html" />
+<meta property="og:site_name" content="Amal’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-11-09T15:30:00+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/splunk/monitoring/logging/analytics/devops/2018/11/09/splunk-expert-guide.html"},"url":"http://localhost:4000/splunk/monitoring/logging/analytics/devops/2018/11/09/splunk-expert-guide.html","author":{"@type":"Person","name":"Amal"},"headline":"Become Expert in Splunk: Log Analysis and Monitoring","dateModified":"2018-11-09T15:30:00+05:30","description":"Become Expert in Splunk: Log Analysis and Monitoring","datePublished":"2018-11-09T15:30:00+05:30","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Amal's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Amal&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Become Expert in Splunk: Log Analysis and Monitoring</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-11-09T15:30:00+05:30" itemprop="datePublished">Nov 9, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amal</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="become-expert-in-splunk-log-analysis-and-monitoring">Become Expert in Splunk: Log Analysis and Monitoring</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Splunk is the leading platform for searching, monitoring, and analyzing machine data. Mastering Splunk is essential for DevOps and security professionals.</p>
+
+<h2 id="part-1-splunk-fundamentals">Part 1: Splunk Fundamentals</h2>
+
+<h3 id="what-is-splunk">What is Splunk?</h3>
+
+<p>Splunk ingests, indexes, and analyzes:</p>
+<ul>
+  <li>Log files</li>
+  <li>Events</li>
+  <li>Metrics</li>
+  <li>System data</li>
+  <li>Application data</li>
+</ul>
+
+<h3 id="core-concepts">Core Concepts</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Data Input    - Source of data (logs, streams)
+Parser        - Extracts fields and timestamps
+Indexer       - Stores indexed data
+Search Head   - Interface for searching
+Forwarder     - Forwards data to indexer
+</code></pre></div></div>
+
+<h3 id="installing-splunk">Installing Splunk</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Download from Splunk website</span>
+<span class="nb">tar </span>xvzf splunk-<span class="k">*</span>.tgz
+
+<span class="c"># Start Splunk</span>
+./splunk/bin/splunk start <span class="nt">--accept-license</span>
+
+<span class="c"># Access web UI</span>
+<span class="c"># http://localhost:8000</span>
+<span class="c"># Default: admin / changeme</span>
+</code></pre></div></div>
+
+<h2 id="part-2-data-ingestion">Part 2: Data Ingestion</h2>
+
+<h3 id="add-data-sources">Add Data Sources</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Settings → Data Inputs → New Input
+
+Types:
+- Files &amp; Directories
+- HTTP Event Collector
+- Monitor
+- TCP/UDP
+- Windows Event Logs
+</code></pre></div></div>
+
+<h3 id="universal-forwarder-configuration">Universal Forwarder Configuration</h3>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># inputs.conf
+</span><span class="nn">[monitor://var/log/apache2/access.log]</span>
+<span class="py">sourcetype</span> <span class="p">=</span> <span class="s">apache:access</span>
+<span class="py">index</span> <span class="p">=</span> <span class="s">main</span>
+
+<span class="nn">[monitor://var/log/syslog]</span>
+<span class="py">sourcetype</span> <span class="p">=</span> <span class="s">syslog</span>
+<span class="py">index</span> <span class="p">=</span> <span class="s">main</span>
+</code></pre></div></div>
+
+<div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># outputs.conf
+</span><span class="nn">[tcpout]</span>
+<span class="py">defaultGroup</span> <span class="p">=</span> <span class="s">my_indexers</span>
+<span class="py">forwardedindex.filter.disable</span> <span class="p">=</span> <span class="s">true</span>
+<span class="py">index</span> <span class="p">=</span> <span class="s">_internal</span>
+
+<span class="nn">[tcpout:my_indexers]</span>
+<span class="py">server</span> <span class="p">=</span> <span class="s">indexer1:9997, indexer2:9997</span>
+</code></pre></div></div>
+
+<h2 id="part-3-searching-and-spl">Part 3: Searching and SPL</h2>
+
+<h3 id="splunk-processing-language-spl">Splunk Processing Language (SPL)</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Basic search syntax:
+index=main sourcetype=apache status=404
+
+# Search modifiers
+earliest=24h
+latest=now
+</code></pre></div></div>
+
+<h3 id="common-spl-commands">Common SPL Commands</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Search with filtering
+index=main sourcetype=apache | head 10
+
+# Extract fields
+index=main sourcetype=apache | fields host, status, clientip
+
+# Statistical functions
+index=main | stats count by status
+
+# Timechart
+index=main | timechart count by status
+
+# Top values
+index=main | top clientip
+
+# Rare values
+index=main | rare status
+
+# Dedup
+index=main | dedup clientip
+
+# Sort
+index=main | sort - bytes
+</code></pre></div></div>
+
+<h3 id="advanced-searches">Advanced Searches</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Multi-source search
+(index=web OR index=app) status=500
+
+# Excluding events
+index=main NOT status=200
+
+# Field calculations
+index=main | eval response_time = http_response_time/1000
+
+# Conditional fields
+index=main | eval severity=case(
+    status&gt;=500, "critical",
+    status&gt;=400, "warning",
+    1=1, "info"
+)
+
+# Join
+index=web | join host [search index=db]
+
+# Subsearch
+index=main [search index=errors | fields host]
+</code></pre></div></div>
+
+<h2 id="part-4-alerts-and-reports">Part 4: Alerts and Reports</h2>
+
+<h3 id="creating-alerts">Creating Alerts</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Create search
+2. Click "Save As" → "Alert"
+3. Configure trigger conditions
+4. Set notification method (email, webhook, etc.)
+5. Define severity and retention
+</code></pre></div></div>
+
+<h3 id="alert-webhook-example">Alert Webhook Example</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://hooks.slack.com/services/YOUR/WEBHOOK/URL
+
+{
+    "text": "Alert: $name$ triggered",
+    "fields": [
+        {"title": "Query", "value": "$search_query$"},
+        {"title": "Count", "value": "$result_count$"}
+    ]
+}
+</code></pre></div></div>
+
+<h3 id="reports">Reports</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Create search with desired results
+2. Click "Save As" → "Report"
+3. Schedule for automatic runs
+4. Configure acceleration
+5. Set permissions
+</code></pre></div></div>
+
+<h2 id="part-5-dashboards">Part 5: Dashboards</h2>
+
+<h3 id="creating-dashboards">Creating Dashboards</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Click "Create" → "Dashboard"
+2. Add panels using searches
+3. Configure visualizations
+4. Set layout and styling
+</code></pre></div></div>
+
+<h3 id="dashboard-example-xml">Dashboard Example (XML)</h3>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dashboard&gt;</span>
+  <span class="nt">&lt;label&gt;</span>Application Performance<span class="nt">&lt;/label&gt;</span>
+  
+  <span class="nt">&lt;row&gt;</span>
+    <span class="nt">&lt;panel&gt;</span>
+      <span class="nt">&lt;title&gt;</span>Response Time by Host<span class="nt">&lt;/title&gt;</span>
+      <span class="nt">&lt;chart&gt;</span>
+        <span class="nt">&lt;search&gt;</span>
+          <span class="nt">&lt;query&gt;</span>index=app | timechart avg(response_time) by host<span class="nt">&lt;/query&gt;</span>
+        <span class="nt">&lt;/search&gt;</span>
+        <span class="nt">&lt;option</span> <span class="na">name=</span><span class="s">"charting.chart"</span><span class="nt">&gt;</span>column<span class="nt">&lt;/option&gt;</span>
+      <span class="nt">&lt;/chart&gt;</span>
+    <span class="nt">&lt;/panel&gt;</span>
+  <span class="nt">&lt;/row&gt;</span>
+  
+  <span class="nt">&lt;row&gt;</span>
+    <span class="nt">&lt;panel&gt;</span>
+      <span class="nt">&lt;title&gt;</span>Error Count<span class="nt">&lt;/title&gt;</span>
+      <span class="nt">&lt;single&gt;</span>
+        <span class="nt">&lt;search&gt;</span>
+          <span class="nt">&lt;query&gt;</span>index=app status=500 | stats count<span class="nt">&lt;/query&gt;</span>
+        <span class="nt">&lt;/search&gt;</span>
+      <span class="nt">&lt;/single&gt;</span>
+    <span class="nt">&lt;/panel&gt;</span>
+  <span class="nt">&lt;/row&gt;</span>
+<span class="nt">&lt;/dashboard&gt;</span>
+</code></pre></div></div>
+
+<h2 id="part-6-advanced-analytics">Part 6: Advanced Analytics</h2>
+
+<h3 id="machine-learning-toolkit-mltk">Machine Learning Toolkit (MLTK)</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Detect anomalies
+index=metrics | detect_anomalies method=mad
+
+# Forecast
+index=metrics | predict future_range=7 holdback=1
+
+# Clustering
+index=data | cluster
+</code></pre></div></div>
+
+<h3 id="correlation-searches">Correlation Searches</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Search 1: Failed logins
+index=authentication status=failed
+| stats count by user
+
+Search 2: Successful logins after failed
+index=authentication 
+| where [search status=failed | fields user]
+</code></pre></div></div>
+
+<h2 id="part-7-performance-optimization">Part 7: Performance Optimization</h2>
+
+<h3 id="search-optimization-tips">Search Optimization Tips</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Use specific index and sourcetype
+index=main sourcetype=apache     # Good
+index=* sourcetype=*             # Bad
+
+# Filter early
+index=main status=200 | eval bytes_gb=bytes/1000000000  # Good
+index=main | eval bytes_gb=bytes/1000000000 | where status=200  # Bad
+
+# Use summary indexing
+... | summary_index=summary
+
+# Accelerate reports
+Reports → Edit → Acceleration
+</code></pre></div></div>
+
+<h2 id="part-8-best-practices">Part 8: Best Practices</h2>
+
+<h3 id="data-management">Data Management</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Set proper indexes
+- Configure log rotation
+- Use appropriate retention
+- Monitor index size
+- Balance storage vs accessibility
+</code></pre></div></div>
+
+<h3 id="security">Security</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Use authentication
+- Implement RBAC
+- Encrypt data in transit
+- Regular backups
+- Monitor access logs
+</code></pre></div></div>
+
+<h2 id="summary">Summary</h2>
+
+<p>Splunk enables:</p>
+<ul>
+  <li>Real-time monitoring</li>
+  <li>Proactive alerting</li>
+  <li>Data analytics</li>
+  <li>Compliance reporting</li>
+  <li>Operational intelligence</li>
+</ul>
+
+<p>Master Splunk to become an expert in log analysis and monitoring!</p>
+
+  </div><a class="u-url" href="/splunk/monitoring/logging/analytics/devops/2018/11/09/splunk-expert-guide.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Amal&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Amal&#39;s Blog</li><li><a class="u-email" href="mailto:amaljom@gmail.com">amaljom@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog built with Jekyll and the Minima theme.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

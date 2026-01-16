@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Chef vs Puppet: Configuration Management Comparison | Amal’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Chef vs Puppet: Configuration Management Comparison" />
+<meta name="author" content="Amal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Chef vs Puppet: Configuration Management Comparison" />
+<meta property="og:description" content="Chef vs Puppet: Configuration Management Comparison" />
+<link rel="canonical" href="http://localhost:4000/chef/puppet/configuration-management/devops/2018/10/28/chef-vs-puppet.html" />
+<meta property="og:url" content="http://localhost:4000/chef/puppet/configuration-management/devops/2018/10/28/chef-vs-puppet.html" />
+<meta property="og:site_name" content="Amal’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-10-28T15:30:00+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/chef/puppet/configuration-management/devops/2018/10/28/chef-vs-puppet.html"},"url":"http://localhost:4000/chef/puppet/configuration-management/devops/2018/10/28/chef-vs-puppet.html","author":{"@type":"Person","name":"Amal"},"headline":"Chef vs Puppet: Configuration Management Comparison","dateModified":"2018-10-28T15:30:00+05:30","description":"Chef vs Puppet: Configuration Management Comparison","datePublished":"2018-10-28T15:30:00+05:30","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Amal's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Amal&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Chef vs Puppet: Configuration Management Comparison</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-10-28T15:30:00+05:30" itemprop="datePublished">Oct 28, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amal</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="chef-vs-puppet-configuration-management-comparison">Chef vs Puppet: Configuration Management Comparison</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Chef and Puppet are industry-leading configuration management tools. Both help automate infrastructure but have different philosophies and approaches.</p>
+
+<h2 id="part-1-fundamental-differences">Part 1: Fundamental Differences</h2>
+
+<h3 id="architecture">Architecture</h3>
+
+<p><strong>Chef</strong></p>
+<ul>
+  <li>Client-Server architecture</li>
+  <li>Chef Server stores recipes and data</li>
+  <li>Chef Client runs locally on nodes</li>
+  <li>Agent-based (pull model with push capabilities)</li>
+</ul>
+
+<p><strong>Puppet</strong></p>
+<ul>
+  <li>Client-Server architecture</li>
+  <li>Puppet Master (Server) stores manifests</li>
+  <li>Puppet Agent runs locally on nodes</li>
+  <li>Primarily pull-based model</li>
+</ul>
+
+<h2 id="part-2-chef-deep-dive">Part 2: Chef Deep Dive</h2>
+
+<h3 id="chef-concepts">Chef Concepts</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Workstation  - Where you write recipes
+Chef Server  - Central repository
+Chef Nodes   - Servers being configured
+Cookbook     - Collection of recipes
+Recipe       - Configuration instructions
+</code></pre></div></div>
+
+<h3 id="chef-recipe-example">Chef Recipe Example</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># recipes/web_server.rb</span>
+
+<span class="n">package</span> <span class="s1">'nginx'</span> <span class="k">do</span>
+  <span class="n">action</span> <span class="ss">:install</span>
+<span class="k">end</span>
+
+<span class="n">service</span> <span class="s1">'nginx'</span> <span class="k">do</span>
+  <span class="n">action</span> <span class="p">[</span><span class="ss">:enable</span><span class="p">,</span> <span class="ss">:start</span><span class="p">]</span>
+<span class="k">end</span>
+
+<span class="n">template</span> <span class="s1">'/etc/nginx/nginx.conf'</span> <span class="k">do</span>
+  <span class="n">source</span> <span class="s1">'nginx.conf.erb'</span>
+  <span class="n">notifies</span> <span class="ss">:restart</span><span class="p">,</span> <span class="s1">'service[nginx]'</span>
+<span class="k">end</span>
+
+<span class="n">cookbook_file</span> <span class="s1">'/var/www/index.html'</span> <span class="k">do</span>
+  <span class="n">source</span> <span class="s1">'index.html'</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h3 id="chef-attributes">Chef Attributes</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># attributes/default.rb</span>
+
+<span class="n">default</span><span class="p">[</span><span class="s1">'nginx'</span><span class="p">][</span><span class="s1">'port'</span><span class="p">]</span> <span class="o">=</span> <span class="mi">80</span>
+<span class="n">default</span><span class="p">[</span><span class="s1">'nginx'</span><span class="p">][</span><span class="s1">'user'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'www-data'</span>
+<span class="n">default</span><span class="p">[</span><span class="s1">'mysql'</span><span class="p">][</span><span class="s1">'version'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'5.7'</span>
+<span class="n">default</span><span class="p">[</span><span class="s1">'mysql'</span><span class="p">][</span><span class="s1">'root_password'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'changeme'</span>
+</code></pre></div></div>
+
+<h3 id="chef-databag">Chef DataBag</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Create data bag</span>
+chef <span class="nb">exec </span>knife data bag create <span class="nb">users </span>alice
+
+<span class="c"># Data bag item JSON</span>
+<span class="o">{</span>
+  <span class="s2">"id"</span>: <span class="s2">"alice"</span>,
+  <span class="s2">"name"</span>: <span class="s2">"Alice Smith"</span>,
+  <span class="s2">"email"</span>: <span class="s2">"alice@example.com"</span>,
+  <span class="s2">"role"</span>: <span class="s2">"admin"</span>
+<span class="o">}</span>
+
+<span class="c"># Use in recipe</span>
+users_data <span class="o">=</span> data_bag_item<span class="o">(</span><span class="s1">'users'</span>, <span class="s1">'alice'</span><span class="o">)</span>
+puts users_data[<span class="s1">'email'</span><span class="o">]</span>
+</code></pre></div></div>
+
+<h2 id="part-3-puppet-deep-dive">Part 3: Puppet Deep Dive</h2>
+
+<h3 id="puppet-concepts">Puppet Concepts</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Manifests     - Puppet code files
+Resources     - Components to manage
+Classes       - Reusable code blocks
+Modules       - Collection of classes and files
+Catalogs      - Complete configuration blueprint
+</code></pre></div></div>
+
+<h3 id="puppet-manifest-example">Puppet Manifest Example</h3>
+
+<div class="language-puppet highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># manifests/web_server.pp
+</span>
+<span class="k">class</span> <span class="nc">web_server</span> <span class="p">{</span>
+  <span class="n">package</span> <span class="p">{</span> <span class="s1">'nginx'</span><span class="p">:</span>
+    <span class="py">ensure</span> <span class="p">=&gt;</span> <span class="n">installed</span><span class="p">,</span>
+  <span class="p">}</span>
+  
+  <span class="n">service</span> <span class="p">{</span> <span class="s1">'nginx'</span><span class="p">:</span>
+    <span class="py">ensure</span> <span class="p">=&gt;</span> <span class="n">running</span><span class="p">,</span>
+    <span class="py">enable</span> <span class="p">=&gt;</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="kp">require</span> <span class="p">=&gt;</span> <span class="nc">Package</span><span class="p">[</span><span class="s1">'nginx'</span><span class="p">],</span>
+  <span class="p">}</span>
+  
+  <span class="n">file</span> <span class="p">{</span> <span class="s1">'/etc/nginx/nginx.conf'</span><span class="p">:</span>
+    <span class="py">ensure</span> <span class="p">=&gt;</span> <span class="n">file</span><span class="p">,</span>
+    <span class="py">source</span> <span class="p">=&gt;</span> <span class="s1">'puppet:///modules/nginx/nginx.conf'</span><span class="p">,</span>
+    <span class="kp">notify</span> <span class="p">=&gt;</span> <span class="nc">Service</span><span class="p">[</span><span class="s1">'nginx'</span><span class="p">],</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">include</span> <span class="nc">web_server</span>
+</code></pre></div></div>
+
+<h3 id="puppet-variables-and-conditionals">Puppet Variables and Conditionals</h3>
+
+<div class="language-puppet highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># variables.pp
+</span>
+<span class="nv">$web_port</span> <span class="o">=</span> <span class="m">80</span>
+<span class="nv">$app_user</span> <span class="o">=</span> <span class="s1">'www-data'</span>
+
+<span class="k">class</span> <span class="p">{</span> <span class="s1">'nginx'</span><span class="p">:</span>
+  <span class="py">port</span> <span class="p">=&gt;</span> <span class="nv">$web_port</span><span class="p">,</span>
+  <span class="py">user</span> <span class="p">=&gt;</span> <span class="nv">$app_user</span><span class="p">,</span>
+<span class="p">}</span>
+
+<span class="k">if</span> <span class="nv">$::osfamily</span> <span class="o">==</span> <span class="s1">'Debian'</span> <span class="p">{</span>
+  <span class="n">package</span> <span class="p">{</span> <span class="s1">'nginx'</span><span class="p">:</span> <span class="p">}</span>
+<span class="p">}</span> <span class="k">elsif</span> <span class="nv">$::osfamily</span> <span class="o">==</span> <span class="s1">'RedHat'</span> <span class="p">{</span>
+  <span class="n">package</span> <span class="p">{</span> <span class="s1">'httpd'</span><span class="p">:</span> <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="puppet-facts">Puppet Facts</h3>
+
+<div class="language-puppet highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Use built-in facts
+</span><span class="n">notify</span> <span class="p">{</span> <span class="s2">"OS: </span><span class="nv">${::osfamily}</span><span class="s2">"</span><span class="p">:</span> <span class="p">}</span>
+<span class="n">notify</span> <span class="p">{</span> <span class="s2">"Hostname: </span><span class="nv">${::hostname}</span><span class="s2">"</span><span class="p">:</span> <span class="p">}</span>
+<span class="n">notify</span> <span class="p">{</span> <span class="s2">"IP: </span><span class="nv">${::ipaddress}</span><span class="s2">"</span><span class="p">:</span> <span class="p">}</span>
+
+<span class="c"># Custom facts
+</span><span class="k">class</span> <span class="p">{</span> <span class="s1">'myapp'</span><span class="p">:</span>
+  <span class="py">environment</span> <span class="p">=&gt;</span> <span class="nv">$::environment_type</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="part-4-comparison">Part 4: Comparison</h2>
+
+<h3 id="chef-vs-puppet">Chef vs Puppet</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Chef</th>
+      <th>Puppet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Language</td>
+      <td>Ruby</td>
+      <td>Puppet DSL</td>
+    </tr>
+    <tr>
+      <td>Learning Curve</td>
+      <td>Steeper</td>
+      <td>Gentler</td>
+    </tr>
+    <tr>
+      <td>Flexibility</td>
+      <td>Very flexible</td>
+      <td>More rigid</td>
+    </tr>
+    <tr>
+      <td>Community</td>
+      <td>Strong</td>
+      <td>Strong</td>
+    </tr>
+    <tr>
+      <td>Push/Pull</td>
+      <td>Both</td>
+      <td>Primarily Pull</td>
+    </tr>
+    <tr>
+      <td>Cost</td>
+      <td>Free/Premium</td>
+      <td>Free/Premium</td>
+    </tr>
+    <tr>
+      <td>Documentation</td>
+      <td>Good</td>
+      <td>Excellent</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="use-case-recommendations">Use Case Recommendations</h3>
+
+<p><strong>Choose Chef if:</strong></p>
+<ul>
+  <li>You need maximum flexibility</li>
+  <li>Your team knows Ruby</li>
+  <li>You prefer imperative approach</li>
+  <li>You need rapid development</li>
+</ul>
+
+<p><strong>Choose Puppet if:</strong></p>
+<ul>
+  <li>You want simpler learning curve</li>
+  <li>You prefer declarative approach</li>
+  <li>You have large enterprise deployment</li>
+  <li>You want comprehensive documentation</li>
+</ul>
+
+<h2 id="part-5-implementation-strategy">Part 5: Implementation Strategy</h2>
+
+<h3 id="chef-workflow">Chef Workflow</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Write recipes on workstation
+2. Upload cookbook to Chef Server
+3. Assign recipes to nodes via run list
+4. Chef Client pulls and applies configuration
+5. Monitor via Chef Analytics
+</code></pre></div></div>
+
+<h3 id="puppet-workflow">Puppet Workflow</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Write manifests on Puppet Master
+2. Puppet Agent checks in every 30 minutes
+3. Master sends catalog to agent
+4. Agent applies configuration
+5. Report back to master
+</code></pre></div></div>
+
+<h2 id="part-6-enterprise-considerations">Part 6: Enterprise Considerations</h2>
+
+<h3 id="chef">Chef</h3>
+<ul>
+  <li>Chef Automate for enterprise</li>
+  <li>Better for complex automation</li>
+  <li>Strong cloud integration</li>
+</ul>
+
+<h3 id="puppet">Puppet</h3>
+<ul>
+  <li>Puppet Enterprise for scale</li>
+  <li>Better compliance management</li>
+  <li>Superior RBAC (Role-Based Access Control)</li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+
+<p>Both Chef and Puppet are powerful tools:</p>
+<ul>
+  <li><strong>Chef</strong>: Flexible, Ruby-based, push-capable</li>
+  <li><strong>Puppet</strong>: Declarative, DSL-based, excellent for large enterprises</li>
+</ul>
+
+<p>The choice depends on your team expertise and organizational needs. Many enterprises use both in different contexts!</p>
+
+  </div><a class="u-url" href="/chef/puppet/configuration-management/devops/2018/10/28/chef-vs-puppet.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Amal&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Amal&#39;s Blog</li><li><a class="u-email" href="mailto:amaljom@gmail.com">amaljom@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog built with Jekyll and the Minima theme.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

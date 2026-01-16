@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Linux Basics to Advanced: Complete Tutorial | Amal’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Linux Basics to Advanced: Complete Tutorial" />
+<meta name="author" content="Amal" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Linux Basics to Advanced: A Complete Tutorial" />
+<meta property="og:description" content="Linux Basics to Advanced: A Complete Tutorial" />
+<link rel="canonical" href="http://localhost:4000/linux/operating-system/tutorial/devops/2018/01/08/linux-basics-to-advanced.html" />
+<meta property="og:url" content="http://localhost:4000/linux/operating-system/tutorial/devops/2018/01/08/linux-basics-to-advanced.html" />
+<meta property="og:site_name" content="Amal’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-01-08T15:30:00+05:30" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/linux/operating-system/tutorial/devops/2018/01/08/linux-basics-to-advanced.html"},"url":"http://localhost:4000/linux/operating-system/tutorial/devops/2018/01/08/linux-basics-to-advanced.html","author":{"@type":"Person","name":"Amal"},"headline":"Linux Basics to Advanced: Complete Tutorial","dateModified":"2018-01-08T15:30:00+05:30","description":"Linux Basics to Advanced: A Complete Tutorial","datePublished":"2018-01-08T15:30:00+05:30","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Amal's Blog" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Amal&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Linux Basics to Advanced: Complete Tutorial</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-01-08T15:30:00+05:30" itemprop="datePublished">Jan 8, 2018
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Amal</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="linux-basics-to-advanced-a-complete-tutorial">Linux Basics to Advanced: A Complete Tutorial</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Linux is the backbone of modern infrastructure. Whether you’re a system administrator, developer, or DevOps engineer, mastering Linux is essential. This guide takes you from basic commands to advanced system administration.</p>
+
+<h2 id="part-1-linux-basics">Part 1: Linux Basics</h2>
+
+<h3 id="what-is-linux">What is Linux?</h3>
+
+<p>Linux is a free, open-source Unix-like operating system. It powers servers, desktops, mobile devices, and embedded systems worldwide.</p>
+
+<h3 id="basic-file-system-structure">Basic File System Structure</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/          <span class="c"># Root directory</span>
+/home      <span class="c"># User home directories</span>
+/etc       <span class="c"># System configuration files</span>
+/var       <span class="c"># Variable data (logs, caches)</span>
+/usr       <span class="c"># User programs and libraries</span>
+/bin       <span class="c"># Essential command binaries</span>
+/sbin      <span class="c"># System binaries</span>
+/lib       <span class="c"># System libraries</span>
+/tmp       <span class="c"># Temporary files</span>
+/opt       <span class="c"># Optional software packages</span>
+</code></pre></div></div>
+
+<h3 id="essential-commands">Essential Commands</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Navigation</span>
+<span class="nb">pwd</span>              <span class="c"># Print working directory</span>
+<span class="nb">cd</span> /path/to/dir  <span class="c"># Change directory</span>
+<span class="nb">ls</span> <span class="nt">-la</span>           <span class="c"># List files with details</span>
+tree             <span class="c"># Display directory tree</span>
+
+<span class="c"># File Operations</span>
+<span class="nb">touch </span>filename           <span class="c"># Create empty file</span>
+<span class="nb">cp source </span>dest           <span class="c"># Copy file</span>
+<span class="nb">mv source </span>dest           <span class="c"># Move/rename file</span>
+<span class="nb">rm </span>filename              <span class="c"># Delete file</span>
+<span class="nb">cat </span>filename             <span class="c"># Display file contents</span>
+less filename            <span class="c"># View file interactively</span>
+
+<span class="c"># Permissions</span>
+<span class="nb">chmod </span>755 filename       <span class="c"># Change file permissions</span>
+<span class="nb">chown </span>user:group file    <span class="c"># Change ownership</span>
+<span class="nb">sudo command</span>             <span class="c"># Execute as superuser</span>
+</code></pre></div></div>
+
+<h3 id="user-and-group-management">User and Group Management</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># User Management</span>
+useradd username         <span class="c"># Add new user</span>
+userdel username         <span class="c"># Delete user</span>
+passwd username          <span class="c"># Change password</span>
+<span class="nb">id </span>username              <span class="c"># Display user info</span>
+<span class="nb">whoami</span>                   <span class="c"># Current user</span>
+
+<span class="c"># Group Management</span>
+groupadd groupname       <span class="c"># Create group</span>
+groupdel groupname       <span class="c"># Delete group</span>
+usermod <span class="nt">-aG</span> group user   <span class="c"># Add user to group</span>
+</code></pre></div></div>
+
+<h2 id="part-2-intermediate-linux">Part 2: Intermediate Linux</h2>
+
+<h3 id="working-with-processes">Working with Processes</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Process Management</span>
+ps aux                   <span class="c"># List all processes</span>
+ps aux | <span class="nb">grep </span>process    <span class="c"># Find specific process</span>
+top                      <span class="c"># Real-time process monitor</span>
+htop                     <span class="c"># Interactive process viewer</span>
+<span class="nb">kill </span>PID                 <span class="c"># Terminate process</span>
+<span class="nb">kill</span> <span class="nt">-9</span> PID              <span class="c"># Force kill process</span>
+<span class="nb">bg</span>                       <span class="c"># Run in background</span>
+<span class="nb">fg</span>                       <span class="c"># Bring to foreground</span>
+</code></pre></div></div>
+
+<h3 id="system-information">System Information</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># System Info</span>
+<span class="nb">uname</span> <span class="nt">-a</span>                 <span class="c"># System information</span>
+lsb_release <span class="nt">-a</span>          <span class="c"># Linux version</span>
+hostnamectl             <span class="c"># Hostname info</span>
+<span class="nb">uptime</span>                  <span class="c"># System uptime</span>
+<span class="nb">df</span> <span class="nt">-h</span>                   <span class="c"># Disk space usage</span>
+<span class="nb">du</span> <span class="nt">-sh</span> <span class="k">*</span>                <span class="c"># Directory sizes</span>
+free <span class="nt">-h</span>                 <span class="c"># Memory usage</span>
+vmstat                  <span class="c"># Virtual memory stats</span>
+</code></pre></div></div>
+
+<h3 id="network-configuration">Network Configuration</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Network Commands</span>
+ifconfig                <span class="c"># Display network interfaces</span>
+ip addr show            <span class="c"># Show IP addresses</span>
+ping host              <span class="c"># Test connectivity</span>
+netstat <span class="nt">-tuln</span>          <span class="c"># List open ports</span>
+ss <span class="nt">-tuln</span>               <span class="c"># Socket statistics</span>
+route <span class="nt">-n</span>               <span class="c"># Display routing table</span>
+traceroute host        <span class="c"># Trace network path</span>
+</code></pre></div></div>
+
+<h3 id="file-permissions-deep-dive">File Permissions Deep Dive</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Permission Format: rwxrwxrwx</span>
+<span class="c"># Owner | Group | Others</span>
+<span class="c"># r=4, w=2, x=1</span>
+
+<span class="nb">chmod </span>644 file          <span class="c"># rw-r--r--</span>
+<span class="nb">chmod </span>755 file          <span class="c"># rwxr-xr-x</span>
+<span class="nb">chmod </span>700 file          <span class="c"># rwx------</span>
+<span class="nb">chmod</span> <span class="nt">-R</span> 755 <span class="nb">dir</span>        <span class="c"># Recursive</span>
+
+<span class="c"># Symbolic notation</span>
+<span class="nb">chmod </span>u+x file          <span class="c"># Add execute for owner</span>
+<span class="nb">chmod </span>g-w file          <span class="c"># Remove write for group</span>
+<span class="nb">chmod </span>o+r file          <span class="c"># Add read for others</span>
+<span class="nb">chmod </span>a+x file          <span class="c"># Add execute for all</span>
+</code></pre></div></div>
+
+<h2 id="part-3-advanced-linux">Part 3: Advanced Linux</h2>
+
+<h3 id="text-processing-and-filtering">Text Processing and Filtering</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># grep - Search text patterns</span>
+<span class="nb">grep</span> <span class="s2">"pattern"</span> file
+<span class="nb">grep</span> <span class="nt">-i</span> <span class="s2">"pattern"</span> file          <span class="c"># Case-insensitive</span>
+<span class="nb">grep</span> <span class="nt">-r</span> <span class="s2">"pattern"</span> /path         <span class="c"># Recursive search</span>
+<span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"pattern"</span> file          <span class="c"># Invert match</span>
+
+<span class="c"># sed - Stream editor</span>
+<span class="nb">sed</span> <span class="s1">'s/old/new/'</span> file           <span class="c"># Replace first occurrence</span>
+<span class="nb">sed</span> <span class="s1">'s/old/new/g'</span> file          <span class="c"># Replace all occurrences</span>
+<span class="nb">sed</span> <span class="nt">-i</span> <span class="s1">'s/old/new/g'</span> file       <span class="c"># Edit in place</span>
+
+<span class="c"># awk - Text processing</span>
+<span class="nb">awk</span> <span class="s1">'{print $1}'</span> file           <span class="c"># Print first column</span>
+<span class="nb">awk</span> <span class="nt">-F</span>: <span class="s1">'{print $1}'</span> file       <span class="c"># Use colon as delimiter</span>
+<span class="nb">awk</span> <span class="s1">'$3 &gt; 100 {print}'</span> file     <span class="c"># Conditional print</span>
+</code></pre></div></div>
+
+<h3 id="advanced-file-operations">Advanced File Operations</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># File compression and archiving</span>
+<span class="nb">tar</span> <span class="nt">-czf</span> archive.tar.gz <span class="nb">dir</span>/    <span class="c"># Create gzip archive</span>
+<span class="nb">tar</span> <span class="nt">-xzf</span> archive.tar.gz         <span class="c"># Extract gzip archive</span>
+zip <span class="nt">-r</span> archive.zip <span class="nb">dir</span>/         <span class="c"># Create zip file</span>
+unzip archive.zip               <span class="c"># Extract zip file</span>
+
+<span class="c"># Find with advanced options</span>
+find /path <span class="nt">-name</span> <span class="s2">"*.txt"</span>        <span class="c"># Find by name</span>
+find /path <span class="nt">-type</span> f <span class="nt">-size</span> +1G    <span class="c"># Find large files</span>
+find /path <span class="nt">-mtime</span> <span class="nt">-7</span>            <span class="c"># Modified in last 7 days</span>
+find /path <span class="nt">-exec</span> <span class="nb">command</span> <span class="o">{}</span> <span class="se">\;</span>  <span class="c"># Execute command on results</span>
+</code></pre></div></div>
+
+<h3 id="system-services-and-daemons">System Services and Daemons</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># systemd - Modern init system</span>
+systemctl start service         <span class="c"># Start service</span>
+systemctl stop service          <span class="c"># Stop service</span>
+systemctl restart service       <span class="c"># Restart service</span>
+systemctl <span class="nb">enable </span>service        <span class="c"># Enable on boot</span>
+systemctl disable service       <span class="c"># Disable on boot</span>
+systemctl status service        <span class="c"># Check status</span>
+systemctl list-units <span class="nt">--all</span>      <span class="c"># List all units</span>
+journalctl <span class="nt">-u</span> service <span class="nt">-n</span> 50     <span class="c"># View service logs</span>
+</code></pre></div></div>
+
+<h3 id="package-management">Package Management</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Debian/Ubuntu (apt)</span>
+apt update                      <span class="c"># Update package list</span>
+apt upgrade                     <span class="c"># Upgrade packages</span>
+apt <span class="nb">install </span>package             <span class="c"># Install package</span>
+apt remove package              <span class="c"># Remove package</span>
+apt search package              <span class="c"># Search packages</span>
+
+<span class="c"># RedHat/CentOS (yum)</span>
+yum <span class="nb">install </span>package             <span class="c"># Install package</span>
+yum update                      <span class="c"># Update all packages</span>
+yum remove package              <span class="c"># Remove package</span>
+yum search package              <span class="c"># Search packages</span>
+</code></pre></div></div>
+
+<h3 id="networking---advanced-configuration">Networking - Advanced Configuration</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Configure network interfaces</span>
+<span class="nb">sudo </span>nano /etc/network/interfaces  <span class="c"># Debian/Ubuntu</span>
+<span class="nb">sudo </span>nano /etc/sysconfig/network-scripts/ifcfg-eth0  <span class="c"># CentOS</span>
+
+<span class="c"># Manual IP configuration</span>
+<span class="nb">sudo </span>ip addr add 192.168.1.100/24 dev eth0
+<span class="nb">sudo </span>ip addr del 192.168.1.100/24 dev eth0
+<span class="nb">sudo </span>ip <span class="nb">link set </span>eth0 up
+<span class="nb">sudo </span>ip <span class="nb">link set </span>eth0 down
+
+<span class="c"># DNS Configuration</span>
+<span class="nb">cat</span> /etc/resolv.conf            <span class="c"># View DNS servers</span>
+<span class="nb">sudo </span>systemctl restart systemd-resolved  <span class="c"># Restart DNS</span>
+
+<span class="c"># Firewall (ufw - Ubuntu, firewalld - CentOS)</span>
+<span class="nb">sudo </span>ufw <span class="nb">enable
+sudo </span>ufw allow 22/tcp
+<span class="nb">sudo </span>ufw deny 80/tcp
+<span class="nb">sudo </span>firewall-cmd <span class="nt">--permanent</span> <span class="nt">--add-service</span><span class="o">=</span>http
+</code></pre></div></div>
+
+<h3 id="log-management">Log Management</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># System Logs</span>
+<span class="nb">tail</span> <span class="nt">-f</span> /var/log/syslog         <span class="c"># Follow system log</span>
+<span class="nb">tail</span> <span class="nt">-n</span> 100 /var/log/auth.log   <span class="c"># Last 100 lines</span>
+journalctl <span class="nt">-f</span>                   <span class="c"># Follow systemd journal</span>
+journalctl <span class="nt">--since</span> <span class="s2">"2 hours ago"</span>  <span class="c"># Logs from last 2 hours</span>
+journalctl <span class="nt">-u</span> service_name      <span class="c"># Specific service logs</span>
+</code></pre></div></div>
+
+<h3 id="performance-tuning">Performance Tuning</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># CPU and Memory</span>
+<span class="nb">nproc</span>                           <span class="c"># Number of processors</span>
+<span class="nb">cat</span> /proc/cpuinfo               <span class="c"># CPU details</span>
+<span class="nb">cat</span> /proc/meminfo               <span class="c"># Memory details</span>
+watch <span class="nt">-n</span> 1 <span class="s1">'free -h'</span>            <span class="c"># Monitor memory every second</span>
+
+<span class="c"># Disk I/O</span>
+iostat <span class="nt">-x</span> 1                     <span class="c"># I/O statistics</span>
+iotop                           <span class="c"># I/O usage by process</span>
+lsblk                           <span class="c"># Block devices</span>
+parted <span class="nt">-l</span>                       <span class="c"># Partition info</span>
+</code></pre></div></div>
+
+<h3 id="advanced-shell-scripting">Advanced Shell Scripting</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="c"># Error handling</span>
+<span class="nb">set</span> <span class="nt">-e</span>          <span class="c"># Exit on error</span>
+<span class="nb">set</span> <span class="nt">-u</span>          <span class="c"># Exit on undefined variable</span>
+<span class="nb">set</span> <span class="nt">-o</span> pipefail <span class="c"># Exit if pipe fails</span>
+
+<span class="c"># Logging function</span>
+log<span class="o">()</span> <span class="o">{</span>
+    <span class="nb">echo</span> <span class="s2">"[</span><span class="si">$(</span><span class="nb">date</span> +<span class="s1">'%Y-%m-%d %H:%M:%S'</span><span class="si">)</span><span class="s2">] </span><span class="nv">$1</span><span class="s2">"</span>
+<span class="o">}</span>
+
+<span class="c"># Check if root</span>
+<span class="k">if</span> <span class="o">[[</span> <span class="nv">$EUID</span> <span class="nt">-ne</span> 0 <span class="o">]]</span><span class="p">;</span> <span class="k">then
+    </span>log <span class="s2">"This script must be run as root"</span>
+    <span class="nb">exit </span>1
+<span class="k">fi</span>
+
+<span class="c"># Array operations</span>
+<span class="nb">declare</span> <span class="nt">-a</span> <span class="nv">array</span><span class="o">=(</span><span class="s2">"item1"</span> <span class="s2">"item2"</span> <span class="s2">"item3"</span><span class="o">)</span>
+<span class="k">for </span>item <span class="k">in</span> <span class="s2">"</span><span class="k">${</span><span class="nv">array</span><span class="p">[@]</span><span class="k">}</span><span class="s2">"</span><span class="p">;</span> <span class="k">do
+    </span>log <span class="s2">"Processing: </span><span class="nv">$item</span><span class="s2">"</span>
+<span class="k">done</span>
+</code></pre></div></div>
+
+<h2 id="summary">Summary</h2>
+
+<p>You now have a solid foundation in Linux from basics to advanced concepts. Key takeaways:</p>
+
+<ul>
+  <li><strong>Basics</strong>: Commands, file systems, permissions</li>
+  <li><strong>Intermediate</strong>: Processes, networking, package management</li>
+  <li><strong>Advanced</strong>: Performance tuning, security, automation</li>
+</ul>
+
+<p>Continue practicing these concepts in a Linux environment to master them!</p>
+
+  </div><a class="u-url" href="/linux/operating-system/tutorial/devops/2018/01/08/linux-basics-to-advanced.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Amal&#39;s Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Amal&#39;s Blog</li><li><a class="u-email" href="mailto:amaljom@gmail.com">amaljom@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A personal blog built with Jekyll and the Minima theme.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
