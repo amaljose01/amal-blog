@@ -22,6 +22,11 @@ minima:
   social_links:
     - { platform: github, user_url: "https://github.com/amaljose01" }
     - { platform: twitter, user_url: "https://twitter.com" }
+  
+# Footer settings
+author:
+  name: Amal Jose
+  email: amaljom@gmail.com
 
 # Markdown settings
 markdown: kramdown
