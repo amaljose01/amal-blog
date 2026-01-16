@@ -1,9 +1,9 @@
 # Jekyll configuration for amal-blog
 
-title: Amal's Blog
+title: DevOps Journey of Amal
 email: amaljom@gmail.com
 description: >-
-  A personal blog built with Jekyll and the Minima theme.
+  A comprehensive guide to DevOps, scripting, cloud technologies, and enterprise integration solutions.
 baseurl: "/amal-blog"
 url: "https://amaljose01.github.io"
 
